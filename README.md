@@ -1,7 +1,7 @@
 # [Echotemplate.com](https://echotemplate.com)
 FREE UI & HTML Templates for Designer and Developer. Echotemplate is a place where a team of design & developers create beautiful templates. Visit [Echotemplate.com](https://echotemplate.com) for more updates.
 
-# [BD Weather Coming Soon Responsive HTML Template](https://www.echotemplate.com/templates)
+# [BD Weather Coming Soon Responsive HTML Template](https://echotemplate.com/templates/bd-weather-coming-soon-responsive-html-template)
 
 > Coming Soon Responsive HTML Template based on bootstrap framework v5.
 
