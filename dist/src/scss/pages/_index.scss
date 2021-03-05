@@ -1,0 +1,376 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author       : Zakir Soft
+Template Name: Coming Soon HTML Template
+Version      : 1.0
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01.Header CSS STYLE
+* 02.News Letter CSS STYLE
+* 03.NOnly Mobile View CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+// Main BG Starts Here
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+// Main BG Ends Here
+
+// Header Starts Here
+header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 30px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // Logo Starts Here
+    .logo {
+        width: 165px;
+
+        svg {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    // Logo Ends Here
+
+    // Social Icon Starts Here
+    .social-icon {
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+            transition: 0.3s all linear;
+
+            &:hover {
+                border-color: #ff3251;
+                background-color: #ff3251;
+            }
+        }
+    }
+
+    // Social Icon Ends Here
+}
+
+// Header Ends Here
+
+// News Letter Area Starts Here
+.has-line {
+    padding-left: 100px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        background-color: #333333;
+        width: 88px;
+        height: 2px;
+    }
+}
+
+.form-group {
+    margin-top: 30px;
+    position: relative;
+
+    input {
+        width: 710px;
+        height: 70px;
+        border: 1px solid #B1B6C5;
+        border-radius: 40px;
+        padding-left: 30px;
+        transition: 0.3s all linear;
+        &:focus{
+            border-color: #ff3251;
+        }
+    }
+
+    button {
+        width: 175px;
+        height: 70px;
+        border: 1px solid #FF3251;
+        border-radius: 40px;
+        background-color: #FF3251;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        position: absolute;
+        top: 0;
+        right: 145px;
+    }
+}
+
+// News Letter Area Ends Here
+
+// Responsive
+// extra Small devices 420px
+@media (max-width: 420px) {
+    .main {
+        background-image: none !important;
+        display: block !important;
+    }
+
+    header {
+        padding-top: 15px !important;
+    }
+
+    .form-group {
+        input {
+            width: 100%;
+            height: 50px;
+        }
+
+        button {
+            height: 50px;
+            width: 130px;
+            right: 0;
+        }
+
+    }
+
+    .has-line {
+        text-align: center;
+        padding: 0;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .social-icon {
+        a {
+            height: 35px !important;
+            width: 35px !important;
+            color: #001141 !important;
+            border-color: #001141 !important;
+        }
+    }
+
+    header .logo {
+        width: 140px;
+    }
+
+    .newsletter-area {
+        padding-top: 150px;
+        margin-bottom: 50px;
+    }
+}
+
+// Small devices 420px - 574px
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+    .main {
+        background-image: none !important;
+        display: block !important;
+    }
+
+    header {
+        padding-top: 15px !important;
+    }
+
+    .form-group {
+        input {
+            width: 100%;
+            height: 50px;
+        }
+
+        button {
+            height: 50px;
+            width: 130px;
+            right: 0;
+        }
+
+    }
+
+    .has-line {
+        text-align: center;
+        padding: 0;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .social-icon {
+        a {
+            height: 35px !important;
+            width: 35px !important;
+            color: #001141 !important;
+            border-color: #001141 !important;
+        }
+    }
+
+    header .logo {
+        width: 150px;
+    }
+
+    .newsletter-area {
+        padding-top: 150px;
+        margin-bottom: 50px;
+    }
+
+}
+
+// Small devices 575px - 767px
+@media (min-width: 575px) and (max-width: 767px) {
+    .main {
+        background-image: none !important;
+        display: block !important;
+    }
+
+    header {
+        padding-top: 15px !important;
+    }
+
+    .form-group {
+        input {
+            width: 100%;
+            height: 50px;
+        }
+
+        button {
+            height: 50px;
+            width: 130px;
+            right: 0;
+        }
+
+    }
+
+    .has-line {
+        text-align: center;
+        padding: 0;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .social-icon {
+        a {
+            height: 35px !important;
+            width: 35px !important;
+            color: #001141 !important;
+            border-color: #001141 !important;
+        }
+    }
+
+    header .logo {
+        width: 160px;
+    }
+
+    .newsletter-area {
+        padding-top: 150px;
+        margin-bottom: 50px;
+    }
+}
+
+// Medium devices 768px - 991px
+@media (min-width: 768px) and (max-width: 991px) {
+    .main {
+        background-image: none !important;
+    }
+
+    .social-icon {
+        a {
+            color: #001141 !important;
+            border-color: #001141 !important;
+        }
+    }
+
+    .form-group {
+        input {
+            width: 100%;
+            height: 55px;
+        }
+
+        button {
+            height: 55px;
+            right: 0;
+        }
+
+    }
+
+    .has-line {
+        text-align: center;
+        padding: 0;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    h5 {
+        font-size: 18px !important;
+    }
+
+    h1 {
+        margin: 0 auto;
+        max-width: 540px !important;
+        text-align: center;
+        font-size: 60px !important;
+        line-height: 68px !important;
+    }
+}
+
+// large devices 992px - 1200px
+@media (min-width: 992px) and (max-width: 1200px) {
+    .form-group button {
+        right: 0 !important;
+        height: 60px;
+    }
+
+    .form-group input {
+        width: 90%;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+    .form-group button {
+        right: 0 !important;
+    }
+
+    .form-group input {
+        width: 90%;
+    }
+}
