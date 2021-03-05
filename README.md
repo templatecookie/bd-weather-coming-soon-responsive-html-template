@@ -7,7 +7,7 @@ FREE UI & HTML Templates for Designer and Developer. Echotemplate is a place whe
 
 This project is a bootstrap version [BD Weather Coming Soon Responsive HTML Template](http://echotemplate.com) designed with HTML & CSS.
 
-Check the [Live Demo here](https://demo.echotemplate.com/appkite-app-landing-html-template).
+Check the [Live Demo here](http://demo.echotemplate.com/bd-weather-coming-soon-responsive-html-template/).
 
 ![](screenshot.png)
 
