@@ -5,7 +5,7 @@ Templatecookie.com creates quality templates and php scripts. Templatecookie has
 
 > Poco is a beautiful landing page template for agencies, It has many pages including, services, about, contact, portfolio, portfolio details, blog, blog details, and more.
 
-Check the [Live Demo here](https://poco-html.netlify.app).
+Check the [Live Demo here](https://bdweather-coming-soon.netlify.app/).
 
 ![](screenshot.png)
 
